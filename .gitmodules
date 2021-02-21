@@ -1,0 +1,9 @@
+[submodule "fakeServer"]
+	path = fakeServer
+	url = git@github.com:rokon12/fakeServer.git
+[submodule "backgroundjob-backend"]
+	path = backgroundjob-backend
+	url = git@github.com:rokon12/backgroundjob-backend.git
+[submodule "backgroundjob-ui"]
+	path = backgroundjob-ui
+	url = git@github.com:rokon12/backgroundjob-ui.git
