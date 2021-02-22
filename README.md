@@ -47,10 +47,10 @@ A job is composed by following fields.
 - a payload, could be anything, since its all fake
 - a callback url, once job is executed, this url will be called
 
-#How add a new job to the Queue 
+# How add a new job to the Queue 
 ![addToQueue](images/addToQueue.png)
 
-#Queue List
+# Queue List
 ![QueueList](images/queueList.png)
 
 ## TODO
