@@ -13,6 +13,12 @@ I have three separate apps,
 - gradle (the latest one)
 - npm 
 
+# Clone all three repo: 
+```
+git clone --recursive https://github.com/rokon12/background-job-system.git
+cd background-job-system
+```
+
 ### Start the backend server:
 ```
 cd backgroundjob-backend
@@ -21,12 +27,13 @@ cd backgroundjob-backend
 
 ### Start the UI:
 ```
-cd 
+cd backgroundjob-ui
 npm start
 ```
 
 ### Start FakeServer
 ```
+cd fakeServer
 ./gradlew bootRun
 ```
 The above fake server is not required to run, but if you run, you will get a callback with job status.
